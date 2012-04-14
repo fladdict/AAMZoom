@@ -22,6 +22,7 @@
 
     UIImageView *imgv = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"image"]];
     [self.zoomView.containerView addSubview:imgv];
+    
     self.zoomView.contentView = imgv;
     [self.zoomView scaleToAspectFit:NO];
 }
@@ -39,10 +40,7 @@
 
 -(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration{
     //宿題。　回転後も位置関係を保持するにはどうすればいいでしょう？
-}
-
--(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation{
-    [self.zoomView layoutSubviews];
+    //回転時にViewのZoomView.containerViewのcenterあるいは、contentViewのCenterを修正すれば
 }
 
 -(IBAction)aspectFit:(id)sender{

@@ -25,7 +25,6 @@
     self.backgroundColor = [UIColor whiteColor];
     if (self) {
         [self setup];
-        // Initialization code
     }
     return self;
 }
