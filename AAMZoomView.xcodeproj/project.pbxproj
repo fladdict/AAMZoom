@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D580B8515392DC300F02338 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D580B8415392DC300F02338 /* UIKit.framework */; };
+		3D580B8715392DC300F02338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D580B8615392DC300F02338 /* Foundation.framework */; };
+		3D580B8915392DC300F02338 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D580B8815392DC300F02338 /* CoreGraphics.framework */; };
+		3D580B8F15392DC300F02338 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D580B8D15392DC300F02338 /* InfoPlist.strings */; };
+		3D580B9115392DC300F02338 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D580B9015392DC300F02338 /* main.m */; };
+		3D580B9515392DC300F02338 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D580B9415392DC300F02338 /* AppDelegate.m */; };
+		3D580B9815392DC300F02338 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D580B9615392DC300F02338 /* MainStoryboard.storyboard */; };
+		3D580B9B15392DC300F02338 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D580B9A15392DC300F02338 /* ViewController.m */; };
+		3D580BA415392DFD00F02338 /* AAMZoomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D580BA315392DFD00F02338 /* AAMZoomView.m */; };
+		3D580BA71539321900F02338 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D580BA61539321900F02338 /* image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D580B8015392DC300F02338 /* AAMZoomView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAMZoomView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D580B8415392DC300F02338 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3D580B8615392DC300F02338 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D580B8815392DC300F02338 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3D580B8C15392DC300F02338 /* AAMZoomView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AAMZoomView-Info.plist"; sourceTree = "<group>"; };
+		3D580B8E15392DC300F02338 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D580B9015392DC300F02338 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D580B9215392DC300F02338 /* AAMZoomView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AAMZoomView-Prefix.pch"; sourceTree = "<group>"; };
+		3D580B9315392DC300F02338 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D580B9415392DC300F02338 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D580B9715392DC300F02338 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3D580B9915392DC300F02338 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D580B9A15392DC300F02338 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D580BA215392DFD00F02338 /* AAMZoomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AAMZoomView.h; path = AAMZoomView/AAMZoomView.h; sourceTree = "<group>"; };
+		3D580BA315392DFD00F02338 /* AAMZoomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AAMZoomView.m; path = AAMZoomView/AAMZoomView.m; sourceTree = "<group>"; };
+		3D580BA61539321900F02338 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = resources/image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D580B7D15392DC300F02338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D580B8515392DC300F02338 /* UIKit.framework in Frameworks */,
+				3D580B8715392DC300F02338 /* Foundation.framework in Frameworks */,
+				3D580B8915392DC300F02338 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D580B7515392DC300F02338 = {
+			isa = PBXGroup;
+			children = (
+				3D580B8A15392DC300F02338 /* AAMZoomView */,
+				3D580B8315392DC300F02338 /* Frameworks */,
+				3D580B8115392DC300F02338 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D580B8115392DC300F02338 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D580B8015392DC300F02338 /* AAMZoomView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D580B8315392DC300F02338 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D580B8415392DC300F02338 /* UIKit.framework */,
+				3D580B8615392DC300F02338 /* Foundation.framework */,
+				3D580B8815392DC300F02338 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D580B8A15392DC300F02338 /* AAMZoomView */ = {
+			isa = PBXGroup;
+			children = (
+				3D580BA115392DC900F02338 /* AAMZoomView */,
+				3D580B9315392DC300F02338 /* AppDelegate.h */,
+				3D580B9415392DC300F02338 /* AppDelegate.m */,
+				3D580B9615392DC300F02338 /* MainStoryboard.storyboard */,
+				3D580B9915392DC300F02338 /* ViewController.h */,
+				3D580B9A15392DC300F02338 /* ViewController.m */,
+				3D580BA51539320E00F02338 /* resources */,
+				3D580B8B15392DC300F02338 /* Supporting Files */,
+			);
+			path = AAMZoomView;
+			sourceTree = "<group>";
+		};
+		3D580B8B15392DC300F02338 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D580B8C15392DC300F02338 /* AAMZoomView-Info.plist */,
+				3D580B8D15392DC300F02338 /* InfoPlist.strings */,
+				3D580B9015392DC300F02338 /* main.m */,
+				3D580B9215392DC300F02338 /* AAMZoomView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D580BA115392DC900F02338 /* AAMZoomView */ = {
+			isa = PBXGroup;
+			children = (
+				3D580BA215392DFD00F02338 /* AAMZoomView.h */,
+				3D580BA315392DFD00F02338 /* AAMZoomView.m */,
+			);
+			name = AAMZoomView;
+			sourceTree = "<group>";
+		};
+		3D580BA51539320E00F02338 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D580BA61539321900F02338 /* image.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D580B7F15392DC300F02338 /* AAMZoomView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D580B9E15392DC300F02338 /* Build configuration list for PBXNativeTarget "AAMZoomView" */;
+			buildPhases = (
+				3D580B7C15392DC300F02338 /* Sources */,
+				3D580B7D15392DC300F02338 /* Frameworks */,
+				3D580B7E15392DC300F02338 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AAMZoomView;
+			productName = AAMZoomView;
+			productReference = 3D580B8015392DC300F02338 /* AAMZoomView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D580B7715392DC300F02338 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Art & Mobile";
+			};
+			buildConfigurationList = 3D580B7A15392DC300F02338 /* Build configuration list for PBXProject "AAMZoomView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3D580B7515392DC300F02338;
+			productRefGroup = 3D580B8115392DC300F02338 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D580B7F15392DC300F02338 /* AAMZoomView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D580B7E15392DC300F02338 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D580B8F15392DC300F02338 /* InfoPlist.strings in Resources */,
+				3D580B9815392DC300F02338 /* MainStoryboard.storyboard in Resources */,
+				3D580BA71539321900F02338 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D580B7C15392DC300F02338 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D580B9115392DC300F02338 /* main.m in Sources */,
+				3D580B9515392DC300F02338 /* AppDelegate.m in Sources */,
+				3D580B9B15392DC300F02338 /* ViewController.m in Sources */,
+				3D580BA415392DFD00F02338 /* AAMZoomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D580B8D15392DC300F02338 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D580B8E15392DC300F02338 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D580B9615392DC300F02338 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D580B9715392DC300F02338 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D580B9C15392DC300F02338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D580B9D15392DC300F02338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D580B9F15392DC300F02338 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AAMZoomView/AAMZoomView-Prefix.pch";
+				INFOPLIST_FILE = "AAMZoomView/AAMZoomView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D580BA015392DC300F02338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AAMZoomView/AAMZoomView-Prefix.pch";
+				INFOPLIST_FILE = "AAMZoomView/AAMZoomView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D580B7A15392DC300F02338 /* Build configuration list for PBXProject "AAMZoomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D580B9C15392DC300F02338 /* Debug */,
+				3D580B9D15392DC300F02338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D580B9E15392DC300F02338 /* Build configuration list for PBXNativeTarget "AAMZoomView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D580B9F15392DC300F02338 /* Debug */,
+				3D580BA015392DC300F02338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D580B7715392DC300F02338 /* Project object */;
+}
